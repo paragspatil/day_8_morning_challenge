@@ -9,7 +9,7 @@ void main(){
     expect(testboard[1].length, 3);
     expect(testboard[2].length, 3);
     expect(testboard[1][1], ' ');
-
+    expect(checkwin(testboard), 'X');
   });
 
 
